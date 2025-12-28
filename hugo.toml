@@ -1,4 +1,9 @@
-baseURL = 'https://ai-circle.pages.dev/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = "https://ai-circle.pages.dev/"
+languageCode = "en-us"
+title = "AI Circle"
+theme = "ananke"
+
+[params]
+  description = "A human-centered discussion on AI, work, culture, and survival"
+  show_reading_time = true
+  mainSections = ["posts"]
